@@ -1,0 +1,16 @@
+# Ejercicio 02 - DOM
+## Introducción
+En el desarrollo web moderno, la interacción entre el contenido estático y la lógica de programación es fundamental. El Document Object Model (DOM) actúa como el puente crítico que permite a lenguajes como JavaScript "leer" y "modificar" la estructura, el estilo y el contenido de un sitio web en tiempo real. Entender el DOM es pasar de crear páginas estáticas a construir experiencias interactivas y dinámicas.
+ ![imagen de DOM](https://concepto.de/wp-content/uploads/2020/08/Programacion-informatica-scaled-e1724960033513-2048x1024.jpg)
+
+## Síntesis
+El Modelo de Objeto del Documento (DOM) es una interfaz de programación de aplicaciones (API) para documentos HTML y XML. Cuando el navegador carga una página, crea una representación interna del documento en forma de árbol lógico. En esta estructura, cada etiqueta, atributo y fragmento de texto se convierte en un "nodo" que el programador puede manipular. Esta jerarquía comienza desde el objeto raíz window y el nodo principal document, ramificándose hacia elementos hijos como <body>, <div>, y etiquetas de texto, permitiendo una navegación precisa por toda la arquitectura de la página.
+
+A través del DOM, los desarrolladores pueden realizar operaciones esenciales conocidas como CRUD (Crear, Leer, Actualizar y Borrar) sobre los elementos de la interfaz. Por ejemplo, es posible capturar un clic en un botón para cambiar el color de un fondo, validar formularios antes de enviarlos o cargar contenido nuevo sin necesidad de refrescar la ventana del navegador. Gracias a métodos como getElementById o querySelector, tenemos control total sobre el comportamiento del sitio, lo que transforma al navegador en una plataforma de software potente y no solo en un visualizador de texto.
+
+Finalmente, es importante distinguir que el DOM no es el código fuente HTML que escribimos originalmente, sino una representación viva. Si un script de JavaScript añade un nuevo párrafo a la pantalla, el DOM cambia dinámicamente, aunque el archivo .html original en el servidor permanezca intacto. Esta capacidad de respuesta es lo que define la "web moderna", permitiendo que las aplicaciones se sientan fluidas, rápidas y capaces de adaptarse a las acciones del usuario de manera inmediata.
+    
+## Reflexión
+Lo que me parece más útil del DOM es la libertad creativa que otorga al programador. La capacidad de transformar cualquier elemento visual mediante lógica de código significa que no estamos limitados por lo que se carga inicialmente. Es fascinante cómo algo tan técnico como una estructura de nodos permite crear efectos visuales complejos o interfaces de usuario que responden al instante, haciendo que la navegación sea mucho más intuitiva y menos rígida.
+## Conclusión
+En conclusión, el DOM es la columna vertebral de la interactividad en la web. Tras analizar su estructura y funcionamiento, queda claro que su dominio es indispensable para cualquier desarrollador. Al conectar el marcado estructurado con la lógica de programación, el DOM no solo facilita la manipulación de datos en pantalla, sino que eleva las páginas web al nivel de aplicaciones funcionales, permitiendo una simbiosis perfecta entre diseño y funcionalidad.
